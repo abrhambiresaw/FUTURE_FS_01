@@ -1,7 +1,20 @@
 @import "tailwindcss";
 
 html, body {
-  width: 100vw;
+  width: 100%;
   background-color: black;
   color: white;
+}
+
+@theme {
+  --color-light-blue: #d9ecff;
+  --color-dark-navy: #2d2d38;
+}
+
+@layer utilities {
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
