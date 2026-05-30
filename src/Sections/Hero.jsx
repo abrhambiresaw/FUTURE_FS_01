@@ -13,6 +13,7 @@ function Hero() {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
+               
                 shaping
                 <span className="slide">
                   <span className="wrapper">
@@ -33,6 +34,7 @@ function Hero() {
               <h1>into Real Projects</h1>
               <h1>that Deliver Results</h1>
             </div>
+             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">I'm Abrham, a full-stack developer based in Ethiopia, passionate about building modern web applications.</p>
           </div>
         </header>
         {/* RIGHT: 3D MODEL */}
