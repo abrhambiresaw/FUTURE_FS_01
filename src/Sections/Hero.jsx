@@ -1,4 +1,4 @@
-
+import { words } from "../constants";
 
 function Hero() {
   return (
