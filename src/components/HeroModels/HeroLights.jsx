@@ -4,27 +4,29 @@ const HeroLights = () => (
   <>
     {/* lamp's light */}
     <spotLight
-      position={[2, 5, 6]}
-      angle={0.15}
-      penumbra={0.2}
-      intensity={100}
-      color="white"
-    />
+  position={[5, 8, 5]}
+  angle={0.3}
+  penumbra={0.5}
+  intensity={80}
+  color="#ffffff"
+  castShadow
+/>
     {/* bluish overhead lamp */}
     <spotLight
-      position={[4, 5, 4]}
-      angle={0.3}
-      penumbra={0.5}
-      intensity={40}
-      color="#4cc9f0"
+        position={[-5, 4, 3]}
+  angle={0.6}
+  penumbra={1}
+  intensity={20}
+  color="#bde0fe"
+
     />
     {/* purplish side fill */}
     <spotLight
-      position={[-3, 5, 5]}
+      position={[0, 6, -5]}
       angle={0.4}
       penumbra={1}
-      intensity={60}
-      color="#9d4edd"
+      intensity={40}
+      color="#c77dff"
     />
     {/* area light for soft moody fill */}
     <primitive
@@ -34,8 +36,8 @@ const HeroLights = () => (
       intensity={15}
     />
     {/* subtle point light for atmospheric tone */}
-    <pointLight position={[0, 1, 0]} intensity={10} color="#7209b7" />
-    <pointLight position={[1, 2, -2]} intensity={10} color="#0d00a4" />
+    <pointLight position={[0, 1, 0]} intensity={8} color="#7209b7" />
+    <pointLight position={[1, 2, -2]} intensity={5} color="#4cc9f0" />
   </>
 );
 
