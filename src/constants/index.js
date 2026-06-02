@@ -73,19 +73,19 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: "/images/Frontend_Backend.png",
+    title: "End-to-End Development",
+    desc: "Building seamless solutions across frontend and backend to deliver complete, scalable applications.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: "/images/Client_Centered.png",
+    title: "Client-Centered Collaboration",
+    desc: "Working closely with clients to understand needs, provide clarity, and ensure satisfaction at every stage..",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/Efficient_delivery.png",
+    title: "Efficient & Scalable Delivery",
+    desc: "Delivering projects on time with optimized performance, scalability, and maintainable code.",
   },
 ];
 
