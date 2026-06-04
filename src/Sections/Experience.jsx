@@ -1,6 +1,7 @@
 import React from 'react'
 import TitleHeader from '../components/TitleHeader'
 import { expCards } from '../constants'
+import { div } from 'three/tsl'
 
 function Experience() {
   return (
@@ -9,7 +10,12 @@ function Experience() {
         <TitleHeader title="Professional Work Experience" sub="My Career Overview" />
         <div className='mt-32 relative'>
           <div className="relative z-50 xl:space-y-32 space-y-10">
-            {expCards}
+            {expCards.map((card) => (
+              <div key={card.title} className='exp-card-wrapper'>
+                {card.title}
+
+              </div>
+            ))}
           </div>
         </div>
       </div>
