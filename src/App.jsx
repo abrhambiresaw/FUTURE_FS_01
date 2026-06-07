@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import FeatureCard from "./Sections/FeatureCard";
 import Experience from "./Sections/Experience";
 import TechStack from "./Sections/TechStack";
+import Contact from "./Sections/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <FeatureCard />
       <Experience />
       <TechStack />
+      <Contact />
     </>
   );
 }
