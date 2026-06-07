@@ -93,8 +93,8 @@ const Contact = () => {
                   />
                 </div>
 
-                <button type="submit">
-                  <div className="cta-button group">
+                <button type="submit" disabled={loading} className="cta-button group w-full">
+                  {/* <div className="cta-button group"> */}
                     <div className="bg-circle" />
                     <p className="text">
                       {loading ? "Sending..." : "Send Message"}
@@ -102,7 +102,7 @@ const Contact = () => {
                     <div className="arrow-wrapper">
                       <img src="/images/arrow-down.svg" alt="arrow" />
                     </div>
-                  </div>
+                  {/* </div> */}
                 </button>
               </form>
             </div>

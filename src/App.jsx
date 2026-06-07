@@ -6,6 +6,7 @@ import FeatureCard from "./Sections/FeatureCard";
 import Experience from "./Sections/Experience";
 import TechStack from "./Sections/TechStack";
 import Contact from "./Sections/Contact";
+import Footer from "./Sections/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Experience />
       <TechStack />
       <Contact />
+      <Footer />
     </>
   );
 }

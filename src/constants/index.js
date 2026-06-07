@@ -22,10 +22,10 @@ const words = [
   { text: "Concepts", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
-  // { text: "Ideas", imgPath: "/images/ideas.svg" },
-  // { text: "Concepts", imgPath: "/images/concepts.svg" },
-  // { text: "Designs", imgPath: "/images/designs.svg" },
-  // { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "/images/ideas.svg" },
+  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
@@ -167,13 +167,15 @@ const testimonials = [];
 const socialImgs = [
  
   {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
-  {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/abrham-biresaw"
   },
+   {
+    name: "GitHub",
+    imgPath: "/images/github.png",
+    url: "https://github.com/abrhambiresaw"
+  }
 ];
 
 export {
