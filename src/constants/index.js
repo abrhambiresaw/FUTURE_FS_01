@@ -22,68 +22,39 @@ const words = [
   { text: "Concepts", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  // { text: "Ideas", imgPath: "/images/ideas.svg" },
+  // { text: "Concepts", imgPath: "/images/concepts.svg" },
+  // { text: "Designs", imgPath: "/images/designs.svg" },
+  // { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-  { value: 1, suffix: "+", label: "Years of Experience" },
-  { value: 1, suffix: "+", label: "Satisfied Clients" },
-  { value: 1, suffix: "+", label: "Completed Projects" },
-  { value: 0, suffix: "%", label: "Client Retention Rate" },
+  // { value: 1, suffix: "+", label: "Years of Experience" },
+  // { value: 1, suffix: "+", label: "Satisfied Clients" },
+  { value: 3, suffix: "+", label: "Completed Projects" },
+  // { value: 0, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
   {
     imgPath: "/images/logos/company-logo-1.png",
   },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
+  
 ];
 
 const abilities = [
   {
-    imgPath: "/images/Frontend_Backend.png",
+    imgPath: "/images/Frontend_Backend.webp",
     title: "End-to-End Development",
     desc: "Building seamless solutions across frontend and backend to deliver complete, scalable applications.",
   },
   {
-    imgPath: "/images/Client_Centered.png",
+    imgPath: "/images/Client_Centered.webp",
     title: "Client-Centered Collaboration",
     desc: "Working closely with clients to understand needs, provide clarity, and ensure satisfaction at every stage.",
   },
   {
-    imgPath: "/images/Efficient_delivery.png",
+    imgPath: "/images/Efficient_delivery.webp",
     title: "Efficient & Scalable Delivery",
     desc: "Delivering projects on time with optimized performance, scalability, and maintainable code.",
   },
@@ -131,21 +102,21 @@ const techStackIcons = [
   },
 ];
 
-const expCards = [
-  {
-    review: "Abrham brought creativity and technical expertise to the team, significantly improving our full stack performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Full Stack Developer",
-    date: "May 19 - June 19",
-    responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
-  },
+// const expCards = [
+//   {
+//     review: "Abrham brought creativity and technical expertise to the team, significantly improving our full stack performance. His work has been invaluable in delivering faster experiences.",
+//     imgPath: "/images/exp1.png",
+//     logoPath: "/images/logo1.png",
+//     title: "Full Stack Developer",
+//     date: "May 19 - June 19",
+//     responsibilities: [
+//       "Developed and maintained user-facing features for the Hostinger website.",
+//       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+//       "Optimized web applications for maximum speed and scalability.",
+//     ],
+//   },
   
-];
+// ];
 
 const expLogos = [
   {
@@ -183,7 +154,7 @@ export {
   abilities,
   logoIconsList,
   counterItems,
-  expCards,
+  // expCards,
   expLogos,
   testimonials,
   socialImgs,

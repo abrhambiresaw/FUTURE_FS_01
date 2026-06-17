@@ -15,7 +15,7 @@ function App() {
       <Hero />
       <ShowcaseSection />
       <FeatureCard />
-      <Experience />
+      {/* <Experience /> */}
       <TechStack />
       <Contact />
       <Footer />

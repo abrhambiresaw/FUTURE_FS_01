@@ -1,6 +1,6 @@
 import React from "react";
 import TitleHeader from "../components/TitleHeader";
-import { expCards } from "../constants";
+// import { expCards } from "../constants";
 import GlowCard from "../components/GlowCard";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -67,7 +67,7 @@ function Experience() {
           sub="My Career Overview"
         />
         <div className="mt-32 relative">
-          <div className="relative z-50 xl:space-y-32 space-y-10">
+          {/* <div className="relative z-50 xl:space-y-32 space-y-10">
             {expCards.map((card, index) => (
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
@@ -111,7 +111,7 @@ function Experience() {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
