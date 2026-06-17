@@ -1,6 +1,5 @@
 import { words } from "../constants";
 import Button from "../components/Button";
-import HeroExperience from "../components/HeroModels/HeroExperience";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter";
@@ -8,20 +7,21 @@ import AnimatedCounter from "../components/AnimatedCounter";
 gsap.registerPlugin(useGSAP);
 
 function Hero() {
-  useGSAP(() =>{
-    gsap.fromTo(".hero-text h1",
+  useGSAP(() => {
+    gsap.fromTo(
+      ".hero-text h1",
       {
         y: 50,
-        opacity: 0
+        opacity: 0,
       },
       {
         y: 0,
         opacity: 1,
         stagger: 0.2,
         duration: 1,
-        ease: 'power2.inOut'
+        ease: "power2.inOut",
       },
-    )
+    );
   }, []);
   return (
     <section id="hero" className="relative overflow-hidden">
@@ -43,7 +43,6 @@ function Hero() {
                         key={word.text}
                         className="flex items-center md:gap-3 gap-1
                         pb-2"
-                        
                       >
                         <img
                           src={word.imgPath}
@@ -71,15 +70,17 @@ function Hero() {
           </div>
         </header>
 
-        {/* RIGHT: 3D MODEL */}
+        {/* RIGHT: photo */}
 
-        <figure>
-          <div className="hero-3d-layout border-red-200 bord">
-            <HeroExperience />
-          </div>
+        <figure className="flex justify-center items-center">
+          <img
+            src="/images/profile.webp"
+            alt="Abrham Biresaw"
+            className="w-[350px] md:w-[400px] rounded-3xl object-cover -translate-x-5"
+          />
         </figure>
       </div>
-      
+
       <AnimatedCounter />
     </section>
   );
