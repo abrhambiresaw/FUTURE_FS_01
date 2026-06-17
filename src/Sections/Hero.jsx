@@ -1,4 +1,3 @@
-import { words } from "../constants";
 import Button from "../components/Button";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -34,33 +33,23 @@ function Hero() {
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
-              <h1>
-                shaping
-                <span className="slide">
-                  <span className="wrapper">
-                    {words.map((word) => (
-                      <span
-                        key={word.text}
-                        className="flex items-center md:gap-3 gap-1
-                        pb-2"
-                      >
-                        <img
-                          src={word.imgPath}
-                          alt={word.text}
-                          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
-                        />
-                        <span>{word.text}</span>
-                      </span>
-                    ))}
-                  </span>
-                </span>
-              </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h3 className="text-blue-400">I'm Abrham Biresaw</h3>
+
+              <h3>Full Stack Developer</h3>
             </div>
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              I'm Abrham, a full-stack developer based in Ethiopia, passionate
-              about building modern web applications.
+
+            <p className="text-white-50 md:text-xl mt-6 leading-relaxed">
+              I'm Abrham Biresaw, a passionate Full Stack Developer based in
+              Ethiopia. I specialize in building modern, responsive, and
+              scalable web applications using the MERN stack (MongoDB,
+              Express.js, React, Node.js), along with JavaScript (ES6+), HTML5,
+              CSS3, and Tailwind CSS. I build RESTful APIs, implement
+              authentication using JWT, and use Git & GitHub for version
+              control. I enjoy transforming ideas into real-world solutions with
+              clean code, intuitive design, and high-performance user
+              experiences. Constantly learning and exploring new technologies, I
+              strive to create applications that are both functional and
+              impactful.
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
@@ -76,7 +65,7 @@ function Hero() {
           <img
             src="/images/profile.webp"
             alt="Abrham Biresaw"
-            className="w-[350px] md:w-[400px] rounded-3xl object-cover -translate-x-5"
+            className="w-[350px] md:w-[400px] rounded-3xl object-cover -translate-x-10"
           />
         </figure>
       </div>

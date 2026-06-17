@@ -56,12 +56,10 @@ function ShowcaseSection() {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a powerful, User-Friendly App
-                called Ryde
+                Customer Management Made Simple with a Modern, Powerful Mini CRM Application
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native,expo, & TailwindCSS for a
-                fast,user-friendly experinece.
+                A modern Mini CRM built with React, Node.js, Express, and MongoDB to simplify customer management, streamline workflows, and improve business productivity.
               </p>
             </div>
           </div>
@@ -76,7 +74,7 @@ function ShowcaseSection() {
                 />
               </div>
               <div>
-                <h2>Library Management Platform</h2>
+                <h2>A frontend restaurant website built with React, Vite, React Icons, and plain CSS.</h2>
               </div>
             </div>
 
@@ -85,7 +83,7 @@ function ShowcaseSection() {
                 <img src="/images/project3.png" alt="YC Directory" />
               </div>
               <div>
-                <h2>Yc Directory - A Startup Showcase App</h2>
+                <h2>A frontend Apple website clone built with React 18, Vite, React Router DOM, plain CSS</h2>
               </div>
             </div>
           </div>
