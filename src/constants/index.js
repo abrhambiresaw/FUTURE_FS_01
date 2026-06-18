@@ -131,7 +131,7 @@ const socialImgs = [
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
-    url: "https://www.linkedin.com/in/abrham-biresaw"
+    url: "https://www.linkedin.com/in/abrham-biresaw-4914a1321/"
   },
    {
     name: "GitHub",

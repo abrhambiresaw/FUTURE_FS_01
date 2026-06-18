@@ -10,7 +10,7 @@ function Footer() {
         </div>
         <div className="socials">
           {socialImgs.map((img) => (
-            <a className='icon mr-4' target='_blank' href={img.url} key={img.name}>
+            <a className='icon mr-4' target='_blank' href={img.url} key={img.name} rel="noreferrer">
               <img src={img.imgPath} alt={img.name} />
             </a>
           ))}
